@@ -1,0 +1,4 @@
+Test suite main-test: RUNNING...
+Root window: 550
+Test suite main-test: PASS
+Test suite logged to: /home/heck/prog/hs/dist-newstyle/build/x86_64-linux/ghc-9.4.8/main-0.1.0.0/t/main-test/test/main-0.1.0.0-main-test.log
