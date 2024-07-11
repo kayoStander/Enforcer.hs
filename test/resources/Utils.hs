@@ -33,7 +33,7 @@ addVectors (x1, y1) (x2, y2) = (x1 + x2, y1 + y2)
 
 pairs :: [t] -> [(t, t)]
 pairs [] = []
-pairs [x] = error "non-even list for pair func"
+pairs [_] = error "non-even list for pair func"
 pairs (x : y : xs) = (x, y) : pairs xs
 
 fromPairs :: [(a, a)] -> [a]

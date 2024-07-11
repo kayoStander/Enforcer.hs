@@ -8,6 +8,8 @@ where
 import Control.Exception
 import Control.Monad
 import qualified Data.ByteString as B
+import qualified Data.Text as T
+import qualified Data.Text.Encoding as TE
 import Graphics.Rendering.OpenGL
 
 data ShaderSource
